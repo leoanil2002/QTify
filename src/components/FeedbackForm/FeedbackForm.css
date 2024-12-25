@@ -1,4 +1,4 @@
-/* .feedbackname {
+.feedbackname {
     margin-top: 16px;
     background: none;
     color: var(--css-black);
@@ -44,4 +44,4 @@
     color: var(--css-white);
     cursor: pointer;
    
-} */
+}
