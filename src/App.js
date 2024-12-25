@@ -4,7 +4,7 @@ import Hero from './components/HeroImage/HeroImage.jsx'
 import styles from './App.css'
 import { useEffect, useState } from 'react'
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from './Api/api'
-// import Section from './components/Section/Section.jsx'
+import Section from './components/Section/Section.jsx'
 // import FilterSection from './components/FilterSection/FilterSection'
 
 function App() {
@@ -107,11 +107,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {/* <div className={styles.sectionWrapper}>
+      <div className={styles.sectionWrapper}>
         <Section type='album' title='Top Albums' data={topAlbumSongs} />
         <Section type='album' title='New Albums' data={newAlbumSongs} />
-        <FilterSection data={newAlbumSongs} type='songFilter' title='Songs' filteredData={filteredData} filteredDataValues={filteredDataValues} value={value} handleChange={handleChange} handleToggle={handleToggle}/>
-      </div> */}
+        {/* <FilterSection data={newAlbumSongs} type='songFilter' title='Songs' filteredData={filteredData} filteredDataValues={filteredDataValues} value={value} handleChange={handleChange} handleToggle={handleToggle}/> */}
+      </div>
     </>
   )
 }
